@@ -63,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   hintText: 'Nim',
                   labelText: 'Nim',
                   icon: Icon(Icons.person_pin),
+                  border:OutlineInputBorder(),
                 ),
                 keyboardType: TextInputType.text,
                 validator: (String? value) {
@@ -77,6 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: const InputDecoration(
                   hintText: 'Nama',
                   labelText: 'Nama',
+                  border:OutlineInputBorder(),
                    icon: Icon(Icons.person),
                 ),
                 keyboardType: TextInputType.text,
@@ -92,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: const InputDecoration(
                   hintText: 'Program Studi',
                   labelText: 'Program Studi',
+                  border:OutlineInputBorder(),
                    icon: Icon(Icons.dashboard),
                 ),
                 keyboardType: TextInputType.text,
@@ -107,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: const InputDecoration(
                   hintText: 'Semester',
                   labelText: 'Semester',
+                  border:OutlineInputBorder(),
                    icon: Icon(Icons.format_list_numbered),
                 ),
                 keyboardType: TextInputType.number,
